@@ -1,0 +1,13 @@
+### Aliases
+
+alias ls="ls -Fh"
+alias ll="ls -lA"
+alias cp="cp -i"
+alias rm="rm -i"
+
+# Show/hide hidden files in Finder
+alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
+alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
+
+## runs fabric anywhere
+alias fab='CUR_DIR=$PWD && workon fab && fab'

@@ -1,0 +1,31 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Anaconda",
+		"AutoPEP8",
+		"BracketHighlighter",
+		"Djaneiro",
+		"Emmet",
+		"Evernote",
+		"Git",
+		"GitGutter",
+		"Indent XML",
+		"Javascript Beautify",
+		"jQuery",
+		"JsFormat",
+		"LESS",
+		"Monokai Extended",
+		"Package Control",
+		"SideBarEnhancements",
+		"SideBarGit",
+		"SqlBeautifier",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-flake8",
+		"SublimeLinter-jshint",
+		"Theme - Soda"
+	]
+}
