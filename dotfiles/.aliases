@@ -11,3 +11,6 @@ alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && kil
 
 ## runs fabric anywhere
 alias fab='CUR_DIR=$PWD && workon fab && fab'
+
+## flush DNS caches
+alias flushdns="sudo discoveryutil mdnsflushcache && sudo discoveryutil udnsflushcaches" 

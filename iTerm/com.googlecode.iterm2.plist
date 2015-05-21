@@ -737,13 +737,13 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>1142 128 678 273 0 0 1920 1057 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>843 344 924 485 0 0 1920 1057 </string>
+	<string>35 347 924 485 0 0 1920 1057 </string>
 	<key>NSWindow Frame SUStatusFrame</key>
 	<string>109 468 384 129 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>764 74 1075 983 0 0 1920 1057 </string>
+	<string>671 278 1649 779 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>280 183 1113 796 0 0 1920 1057 </string>
+	<string>156 200 1065 813 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
 	<string>189 270 725 706 0 0 1680 1028 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
@@ -1709,11 +1709,11 @@
 			<key>Foreground Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.89713811874389648</real>
+				<real>0.98954659700393677</real>
 				<key>Green Component</key>
-				<real>0.8579363226890564</real>
+				<real>0.94990968704223633</real>
 				<key>Red Component</key>
-				<real>0.84028750658035278</real>
+				<real>0.92803019285202026</real>
 			</dict>
 			<key>Guid</key>
 			<string>0D9C7A45-9B7F-4227-9A97-F550A9DD7B24</string>
@@ -2018,7 +2018,7 @@
 			<key>Log Directory</key>
 			<string></string>
 			<key>Minimum Contrast</key>
-			<real>0.26059895753860474</real>
+			<real>0.21557292342185974</real>
 			<key>Mouse Reporting</key>
 			<true/>
 			<key>Name</key>
@@ -2434,11 +2434,11 @@
 			<key>Foreground Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.89713811874389648</real>
+				<real>0.98954659700393677</real>
 				<key>Green Component</key>
-				<real>0.8579363226890564</real>
+				<real>0.94990968704223633</real>
 				<key>Red Component</key>
-				<real>0.84028750658035278</real>
+				<real>0.92803019285202026</real>
 			</dict>
 			<key>Guid</key>
 			<string>720A0454-B495-42E5-AE89-9241A39CB227</string>
@@ -2743,7 +2743,7 @@
 			<key>Log Directory</key>
 			<string></string>
 			<key>Minimum Contrast</key>
-			<real>0.26059895753860474</real>
+			<real>0.21557292342185974</real>
 			<key>Mouse Reporting</key>
 			<true/>
 			<key>Name</key>
@@ -3159,11 +3159,11 @@
 			<key>Foreground Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.89713811874389648</real>
+				<real>0.98954659700393677</real>
 				<key>Green Component</key>
-				<real>0.8579363226890564</real>
+				<real>0.94990968704223633</real>
 				<key>Red Component</key>
-				<real>0.84028750658035278</real>
+				<real>0.92803019285202026</real>
 			</dict>
 			<key>Guid</key>
 			<string>07A51904-AC6F-47F6-B8D2-A28E47174147</string>
@@ -3468,7 +3468,7 @@
 			<key>Log Directory</key>
 			<string></string>
 			<key>Minimum Contrast</key>
-			<real>0.26059895753860474</real>
+			<real>0.21557292342185974</real>
 			<key>Mouse Reporting</key>
 			<true/>
 			<key>Name</key>
@@ -3884,11 +3884,11 @@
 			<key>Foreground Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.89713811874389648</real>
+				<real>0.98954659700393677</real>
 				<key>Green Component</key>
-				<real>0.8579363226890564</real>
+				<real>0.94990968704223633</real>
 				<key>Red Component</key>
-				<real>0.84028750658035278</real>
+				<real>0.92803019285202026</real>
 			</dict>
 			<key>Guid</key>
 			<string>752D41B5-1063-4770-B9F0-E7689087D8E1</string>
@@ -4193,7 +4193,7 @@
 			<key>Log Directory</key>
 			<string></string>
 			<key>Minimum Contrast</key>
-			<real>0.26059895753860474</real>
+			<real>0.21557292342185974</real>
 			<key>Mouse Reporting</key>
 			<true/>
 			<key>Name</key>
@@ -4609,11 +4609,11 @@
 			<key>Foreground Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.89713811874389648</real>
+				<real>0.98954659700393677</real>
 				<key>Green Component</key>
-				<real>0.8579363226890564</real>
+				<real>0.94990968704223633</real>
 				<key>Red Component</key>
-				<real>0.84028750658035278</real>
+				<real>0.92803019285202026</real>
 			</dict>
 			<key>Guid</key>
 			<string>89493A0E-83A1-465C-B79F-8AF64785F0D8</string>
@@ -4918,7 +4918,7 @@
 			<key>Log Directory</key>
 			<string></string>
 			<key>Minimum Contrast</key>
-			<real>0.26059895753860474</real>
+			<real>0.21557292342185974</real>
 			<key>Mouse Reporting</key>
 			<true/>
 			<key>Name</key>
@@ -5334,11 +5334,11 @@
 			<key>Foreground Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.89713811874389648</real>
+				<real>0.98954659700393677</real>
 				<key>Green Component</key>
-				<real>0.8579363226890564</real>
+				<real>0.94990968704223633</real>
 				<key>Red Component</key>
-				<real>0.84028750658035278</real>
+				<real>0.92803019285202026</real>
 			</dict>
 			<key>Guid</key>
 			<string>6EFD74EC-2B10-4AFF-B25E-2B095A99E04E</string>
@@ -5643,7 +5643,7 @@
 			<key>Log Directory</key>
 			<string></string>
 			<key>Minimum Contrast</key>
-			<real>0.26059895753860474</real>
+			<real>0.21557292342185974</real>
 			<key>Mouse Reporting</key>
 			<true/>
 			<key>Name</key>
@@ -6059,11 +6059,11 @@
 			<key>Foreground Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.89713811874389648</real>
+				<real>0.98954659700393677</real>
 				<key>Green Component</key>
-				<real>0.8579363226890564</real>
+				<real>0.94990968704223633</real>
 				<key>Red Component</key>
-				<real>0.84028750658035278</real>
+				<real>0.92803019285202026</real>
 			</dict>
 			<key>Guid</key>
 			<string>9B5B3917-EBA5-4ACA-8D17-A831ABAB54E1</string>
@@ -6368,7 +6368,7 @@
 			<key>Log Directory</key>
 			<string></string>
 			<key>Minimum Contrast</key>
-			<real>0.26059895753860474</real>
+			<real>0.21557292342185974</real>
 			<key>Mouse Reporting</key>
 			<true/>
 			<key>Name</key>
@@ -6556,7 +6556,7 @@
 	<key>NoSyncTimeOfLastPromo</key>
 	<real>453286902.29948097</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>453632556.29929399</real>
+	<real>453718957.29942203</real>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -6621,7 +6621,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2015-05-18T09:28:51Z</date>
+	<date>2015-05-19T09:28:49Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
