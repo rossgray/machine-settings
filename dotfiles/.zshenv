@@ -16,8 +16,6 @@ export LS_COLORS='no=00:fi=00:di=01;34:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40
 export PIP_VIRTUALENV_BASE=$HOME/.virtualenvs
 # pip should only run if there is a virtualenv currently activated
 export PIP_REQUIRE_VIRTUALENV=true
-# cache pip-installed packages to avoid re-downloading
-export PIP_DOWNLOAD_CACHE=$HOME/.pip/cache
 # make changes to global packages
 syspip(){
    PIP_REQUIRE_VIRTUALENV=false pip "$@"
