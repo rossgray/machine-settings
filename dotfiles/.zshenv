@@ -11,9 +11,7 @@ export LS_COLORS='no=00:fi=00:di=01;34:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40
 # Modify prompt
 #export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
 
-
-# Centralized location for new virtual environments
-export PIP_VIRTUALENV_BASE=$HOME/.virtualenvs
+# pip options
 # pip should only run if there is a virtualenv currently activated
 export PIP_REQUIRE_VIRTUALENV=true
 # make changes to global packages
