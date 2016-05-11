@@ -9,3 +9,4 @@ A repo for storing the settings I use across my machines (OS X)
 - [Homebrew](http://brew.sh/)
 - [lunchy](https://github.com/eddiezane/lunchy)
 - [Spectacle](https://www.spectacleapp.com/) window manager
+- [ag](https://github.com/ggreer/the_silver_searcher) code-searching tool
