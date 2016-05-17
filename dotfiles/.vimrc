@@ -1,8 +1,89 @@
+"vim-plug plugins
+call plug#begin('~/.vim/plugged')
+
+Plug 'rking/ag.vim'
+Plug 'scrooloose/nerdtree'
+Plug 'bling/vim-airline'
+Plug 'tpope/vim-fugitive'
+Plug 'airblade/vim-gitgutter'
+Plug 'scrooloose/syntastic'
+Plug 'valloric/youcompleteme'
+Plug 'nvie/vim-flake8'
+Plug 'scrooloose/nerdcommenter'
+Plug 'hynek/vim-python-pep8-indent'
+Plug 'pangloss/vim-javascript'
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'groenewege/vim-less'
+
+call plug#end()
+
 filetype plugin indent on
-syntax on
+
 set tabstop=4
 set shiftwidth=4
-set expandtab
+set history=700
+set autoread
+set autoindent
+set number
+set ignorecase
+set smartcase
+set showmatch
+set encoding=utf-8
+set smarttab
 set hls
 set ic
 set ruler
+"set cursorline
+set wildmenu
+set lazyredraw
+set mouse=a
+set clipboard=unnamed
+set list listchars=tab:▷⋅,trail:⋅,nbsp:⋅
+
+set wildignore+=*.pyc " compiled Python files
+set wildignore+=*.o,*.obj,*.exe,*.dll,*.manifest " compiled object files
+set wildignore+=*.sw? " Vim swap files
+
+" enable all Python syntax highlighting features
+let python_highlight_all = 1
+
+" Searching
+set incsearch
+set hlsearch
+
+syntax on
+
+" Enable folding
+set foldenable
+set foldmethod=indent
+set foldlevel=99
+
+
+"Remap keys
+let mapleader=" "
+
+nnoremap <leader>p :FZF<CR>
+nnoremap <leader>t :NERDTreeToggle<CR>
+nnoremap <leader>a :Ag 
+
+" turn off search highlight
+nnoremap <leader><space> :nohlsearch<CR>
+
+"split navigations
+"Ctrl-j move to the split below
+"Ctrl-k move to the split above
+"Ctrl-l move to the split to the right
+"Ctrl-h move to the split to the left
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+" Enable folding with the spacebar
+"nnoremap <space> za
+
+let $FZF_DEFAULT_COMMAND = 'ag --hidden --ignore .git -g ""'
+
+
+let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
+let NERDTreeShowHidden=1
