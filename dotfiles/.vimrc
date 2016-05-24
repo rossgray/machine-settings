@@ -14,11 +14,15 @@ Plug 'hynek/vim-python-pep8-indent'
 Plug 'pangloss/vim-javascript'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'groenewege/vim-less'
+Plug 'mattn/emmet-vim'
+Plug 'sirver/ultisnips'
+Plug 'honza/vim-snippets'
 
 call plug#end()
 
 filetype plugin indent on
 
+set backspace=indent,eol,start
 set tabstop=4
 set shiftwidth=4
 set history=700
@@ -38,6 +42,7 @@ set wildmenu
 set lazyredraw
 set mouse=a
 set clipboard=unnamed
+set list listchars=tab:▷⋅,trail:⋅,nbsp:⋅
 
 set wildignore+=*.pyc " compiled Python files
 set wildignore+=*.o,*.obj,*.exe,*.dll,*.manifest " compiled object files
@@ -61,10 +66,6 @@ set foldlevel=99
 "Remap keys
 let mapleader=" "
 
-nnoremap <leader>p :FZF<CR>
-nnoremap <leader>t :NERDTreeToggle<CR>
-nnoremap <leader>a :Ag 
-
 " turn off search highlight
 nnoremap <leader><space> :nohlsearch<CR>
 
@@ -78,11 +79,15 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
-" Enable folding with the spacebar
-"nnoremap <space> za
+nnoremap <leader>p :FZF<CR>
+nnoremap <leader>t :NERDTreeToggle<CR>
+nnoremap <leader>a :Ag 
 
 let $FZF_DEFAULT_COMMAND = 'ag --hidden --ignore .git -g ""'
 
-
 let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
 let NERDTreeShowHidden=1
+
+let g:UltiSnipsExpandTrigger="<c-j>"
+let g:UltiSnipsListSnippets="<c-l>"
+let g:UltiSnipsEditSplit="vertical"

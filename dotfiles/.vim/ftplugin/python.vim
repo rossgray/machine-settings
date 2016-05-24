@@ -5,4 +5,3 @@ setlocal expandtab
 setlocal autoindent
 setlocal smarttab
 setlocal textwidth=79
-set list listchars=tab:>⋅,trail:⋅,nbsp:⋅
