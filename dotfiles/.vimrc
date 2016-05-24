@@ -42,7 +42,6 @@ set wildmenu
 set lazyredraw
 set mouse=a
 set clipboard=unnamed
-set list listchars=tab:▷⋅,trail:⋅,nbsp:⋅
 
 set wildignore+=*.pyc " compiled Python files
 set wildignore+=*.o,*.obj,*.exe,*.dll,*.manifest " compiled object files
