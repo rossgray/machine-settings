@@ -13,10 +13,12 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'hynek/vim-python-pep8-indent'
 Plug 'pangloss/vim-javascript'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
 Plug 'groenewege/vim-less'
 Plug 'mattn/emmet-vim'
 Plug 'sirver/ultisnips'
 Plug 'honza/vim-snippets'
+Plug 'ntpeters/vim-better-whitespace'
 
 call plug#end()
 

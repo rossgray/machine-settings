@@ -18,6 +18,9 @@ Plug 'groenewege/vim-less'
 Plug 'mattn/emmet-vim'
 Plug 'sirver/ultisnips'
 Plug 'honza/vim-snippets'
+Plug 'ntpeters/vim-better-whitespace'
+" Theme
+Plug 'mhartington/oceanic-next'
 
 call plug#end()
 
@@ -28,6 +31,12 @@ call plug#end()
 set clipboard+=unnamedplus
 set number
 set ignorecase
+
+" Enable folding
+set foldenable
+set foldmethod=indent
+set foldlevel=99
+
 
 
 " Remap keys
@@ -50,7 +59,16 @@ nnoremap <leader>p :FZF<CR>
 nnoremap <leader>t :NERDTreeToggle<CR>
 nnoremap <leader>a :Ag 
 
-"let $FZF_DEFAULT_COMMAND = 'ag --hidden --ignore .git -g ""'
+" Theme
+syntax enable
+let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+colorscheme OceanicNext
+set background=dark
+let g:airline_theme='oceanicnext'
+
+
+" Plugin options
+let $FZF_DEFAULT_COMMAND = 'ag --hidden --ignore .git -g ""'
 
 let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
 let NERDTreeShowHidden=1
