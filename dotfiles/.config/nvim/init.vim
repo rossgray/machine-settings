@@ -31,6 +31,7 @@ call plug#end()
 set clipboard+=unnamedplus
 set number
 set ignorecase
+set diffopt+=vertical
 
 " Enable folding
 set foldenable
