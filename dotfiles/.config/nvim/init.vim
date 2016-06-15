@@ -60,6 +60,11 @@ nnoremap <leader>p :FZF<CR>
 nnoremap <leader>t :NERDTreeToggle<CR>
 nnoremap <leader>a :Ag 
 
+" Format JSON
+nmap =j :%!python -m json.tool<CR>
+" Format XML
+nmap =x :%!xmllint --format -<CR>
+
 " Theme
 syntax enable
 let $NVIM_TUI_ENABLE_TRUE_COLOR=1
