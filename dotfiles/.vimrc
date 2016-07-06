@@ -76,9 +76,6 @@ set foldlevel=99
 "Remap keys
 let mapleader=" "
 
-" turn off search highlight
-nnoremap <leader><space> :nohlsearch<CR>
-
 "split navigations
 "Ctrl-j move to the split below
 "Ctrl-k move to the split above
@@ -88,6 +85,12 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
+
+" turn off search highlight
+nnoremap <leader>h :nohlsearch<CR>
+
+" fold toggle
+nnoremap <leader><space> za
 
 nnoremap <leader>p :FZF<CR>
 nnoremap <leader>n :NERDTreeToggle<CR>
