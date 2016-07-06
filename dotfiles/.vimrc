@@ -19,10 +19,19 @@ Plug 'mattn/emmet-vim'
 Plug 'sirver/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'ntpeters/vim-better-whitespace'
+Plug 'majutsushi/tagbar'
+" Theme
+Plug 'mhartington/oceanic-next'
 
 call plug#end()
 
 filetype plugin indent on
+
+" Theme
+syntax enable
+set t_Co=256
+colorscheme OceanicNext
+set background=dark
 
 set backspace=indent,eol,start
 set tabstop=4
@@ -81,8 +90,10 @@ nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
 nnoremap <leader>p :FZF<CR>
-nnoremap <leader>t :NERDTreeToggle<CR>
+nnoremap <leader>n :NERDTreeToggle<CR>
 nnoremap <leader>a :Ag 
+nnoremap <leader>t :TagbarToggle<CR>
+
 
 let $FZF_DEFAULT_COMMAND = 'ag --hidden --ignore .git -g ""'
 
