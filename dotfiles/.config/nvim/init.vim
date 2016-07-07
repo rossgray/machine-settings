@@ -68,6 +68,9 @@ nmap =j :%!python -m json.tool<CR>
 " Format XML
 nmap =x :%!xmllint --format -<CR>
 
+" Exit terminal mode
+tnoremap <Esc> <C-\><C-n>
+
 " Theme
 syntax enable
 let $NVIM_TUI_ENABLE_TRUE_COLOR=1
