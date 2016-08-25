@@ -12,6 +12,7 @@ Plug 'nvie/vim-flake8'
 Plug 'scrooloose/nerdcommenter'
 Plug 'hynek/vim-python-pep8-indent'
 Plug 'pangloss/vim-javascript'
+Plug 'fatih/vim-go'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'groenewege/vim-less'
