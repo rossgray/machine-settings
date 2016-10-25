@@ -965,14 +965,16 @@
 	<string>1100 418 580 290 0 0 1920 1057 </string>
 	<key>NSWindow Frame Preferences</key>
 	<string>-1651 579 606 456 -1920 0 1920 1057 </string>
+	<key>NSWindow Frame SUStatusFrame</key>
+	<string>760 697 400 129 0 0 1920 1057 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>650 498 620 392 0 0 1920 1057 </string>
+	<string>-1270 499 620 392 -1920 0 1920 1057 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>-1301 324 918 512 -1920 0 1920 1057 </string>
+	<string>619 294 918 512 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>1 78 1785 979 0 0 1920 1057 </string>
+	<string>963 3 953 1051 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>-1518 104 1065 792 -1920 0 1920 1057 </string>
+	<string>-1790 163 1585 894 -1920 0 1920 1057 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -4598,7 +4600,7 @@
 			<key>Window Type</key>
 			<integer>0</integer>
 			<key>Working Directory</key>
-			<string>/Users/rossgray</string>
+			<string>/home/rossgray/src/cgi-bin/</string>
 		</dict>
 		<dict>
 			<key>ASCII Anti Aliased</key>
@@ -7659,7 +7661,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-08-17T15:28:01Z</date>
+	<date>2016-09-22T08:29:33Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -7705,6 +7707,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.0.7</string>
+	<string>3.0.9</string>
 </dict>
 </plist>
