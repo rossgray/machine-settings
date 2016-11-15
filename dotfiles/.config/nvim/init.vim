@@ -35,6 +35,8 @@ set clipboard+=unnamedplus
 set number
 set ignorecase
 set diffopt+=vertical
+set tabstop=4
+set shiftwidth=4
 
 " Enable folding
 set foldenable
