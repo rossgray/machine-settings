@@ -7,7 +7,7 @@ Plug 'bling/vim-airline'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'scrooloose/syntastic'
-Plug 'Valloric/YouCompleteMe', { 'do': './install.py --tern-completer' }
+Plug 'Valloric/YouCompleteMe', { 'do': './install.py --tern-completer --gocode-completer' }
 Plug 'nvie/vim-flake8'
 Plug 'scrooloose/nerdcommenter'
 Plug 'hynek/vim-python-pep8-indent'
