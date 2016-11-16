@@ -83,6 +83,12 @@ set background=dark
 let g:airline_theme='oceanicnext'
 
 
+" Python provider
+" We've created virtualenvs for neovim
+let g:python_host_prog = '/Users/ross/.virtualenvs/neovim/bin/python'
+let g:python3_host_prog = '/Users/ross/.virtualenvs/neovim3/bin/python'
+
+
 " Plugin options
 let $FZF_DEFAULT_COMMAND = 'ag --hidden --ignore .git -g ""'
 
