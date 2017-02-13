@@ -1,7 +1,7 @@
 "vim-plug plugins
 call plug#begin('~/.config/nvim/plugged')
 
-Plug 'numkil/ag.nvim'
+Plug 'mileszs/ack.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'bling/vim-airline'
 Plug 'tpope/vim-fugitive'
@@ -64,7 +64,7 @@ nnoremap <leader>h :nohlsearch<CR>
 
 nnoremap <leader>p :FZF<CR>
 nnoremap <leader>n :NERDTreeToggle<CR>
-nnoremap <leader>a :Ag 
+nnoremap <leader>a :Ack 
 nnoremap <leader>t :TagbarToggle<CR>
 
 " Format JSON
@@ -91,6 +91,12 @@ let g:python3_host_prog = '/Users/ross/.virtualenvs/neovim3/bin/python'
 
 " Plugin options
 let $FZF_DEFAULT_COMMAND = 'ag --hidden --ignore .git -g ""'
+
+if executable('ag')
+  let g:ackprg = 'ag --vimgrep'
+endif
+let g:ackhighlight = 1
+let g:ack_autoclose = 1
 
 let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
 let NERDTreeShowHidden=1
