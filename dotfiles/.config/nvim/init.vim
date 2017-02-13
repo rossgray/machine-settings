@@ -22,6 +22,7 @@ Plug 'honza/vim-snippets'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'majutsushi/tagbar'
 Plug 'tpope/vim-surround'
+Plug 'tpope/vim-projectionist'
 " Theme
 Plug 'mhartington/oceanic-next'
 
