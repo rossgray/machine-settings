@@ -65,7 +65,7 @@ nnoremap <leader>h :nohlsearch<CR>
 
 nnoremap <leader>p :FZF<CR>
 nnoremap <leader>n :NERDTreeToggle<CR>
-nnoremap <leader>a :Ack 
+nnoremap <leader>a :Ack! 
 nnoremap <leader>t :TagbarToggle<CR>
 
 " Format JSON
