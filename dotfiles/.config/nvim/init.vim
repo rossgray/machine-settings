@@ -106,6 +106,9 @@ let g:UltiSnipsExpandTrigger="<c-j>"
 let g:UltiSnipsListSnippets="<c-l>"
 let g:UltiSnipsEditSplit="vertical"
 
+" Add spaces after comment delimiters by default
+let g:NERDSpaceDelims = 1
+
 " Go settings
 let g:go_highlight_functions = 1
 let g:go_highlight_methods = 1
