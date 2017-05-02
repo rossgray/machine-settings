@@ -33,6 +33,7 @@ call plug#end()
 " Options
 
 set clipboard+=unnamedplus
+set mouse=a
 set number
 set ignorecase
 set diffopt+=vertical
