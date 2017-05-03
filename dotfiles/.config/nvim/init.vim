@@ -23,6 +23,7 @@ Plug 'ntpeters/vim-better-whitespace'
 Plug 'majutsushi/tagbar'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-projectionist'
+Plug 'posva/vim-vue'
 " Theme
 Plug 'mhartington/oceanic-next'
 
