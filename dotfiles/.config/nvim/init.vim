@@ -95,6 +95,8 @@ let g:python3_host_prog = '/Users/ross/.virtualenvs/neovim3/bin/python'
 " Plugin options
 let $FZF_DEFAULT_COMMAND = 'ag --hidden --ignore .git -g ""'
 
+let g:syntastic_python_flake8_exec='/Users/ross/.virtualenvs/neovim3/bin/flake8'
+
 if executable('ag')
   let g:ackprg = 'ag --vimgrep'
 endif
