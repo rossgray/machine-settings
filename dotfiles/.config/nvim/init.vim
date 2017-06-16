@@ -104,6 +104,7 @@ let g:ack_autoclose = 1
 let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
 let NERDTreeShowHidden=1
 
+let g:UltiSnipsSnippetsDir="~/.config/nvim/UltiSnips"
 let g:UltiSnipsExpandTrigger="<c-j>"
 let g:UltiSnipsListSnippets="<c-l>"
 let g:UltiSnipsEditSplit="vertical"
