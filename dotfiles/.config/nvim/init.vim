@@ -8,14 +8,12 @@ Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'scrooloose/syntastic'
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py --tern-completer --gocode-completer' }
-Plug 'nvie/vim-flake8'
 Plug 'scrooloose/nerdcommenter'
 Plug 'hynek/vim-python-pep8-indent'
 Plug 'pangloss/vim-javascript'
 Plug 'fatih/vim-go'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
-Plug 'groenewege/vim-less'
 Plug 'mattn/emmet-vim'
 Plug 'sirver/ultisnips'
 Plug 'honza/vim-snippets'
@@ -95,8 +93,14 @@ let g:python3_host_prog = '/Users/ross/.virtualenvs/neovim3/bin/python'
 " Plugin options
 let $FZF_DEFAULT_COMMAND = 'ag --hidden --ignore .git -g ""'
 
+" Syntastic
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
 let g:syntastic_python_flake8_exec='/Users/ross/.virtualenvs/neovim3/bin/flake8'
 
+" Ack
 if executable('ag')
   let g:ackprg = 'ag --vimgrep'
 endif
