@@ -7,3 +7,5 @@ setlocal smarttab
 setlocal textwidth=79
 set colorcolumn=80
 highlight ColorColumn ctermbg=8
+" Don't open syntastic error location-list automatically
+let b:syntastic_auto_loc_list = 0
