@@ -971,12 +971,16 @@
 	</dict>
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>1028 277 650 285 0 0 1920 1057 </string>
+	<key>NSWindow Frame ProfilesPanel</key>
+	<string>-1575 624 735 382 -1920 0 1920 1057 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>410 364 620 392 0 0 1440 877 </string>
+	<key>NSWindow Frame SessionsPreferences</key>
+	<string>269 126 606 469 0 0 1440 877 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>716 446 796 473 0 0 1920 1057 </string>
+	<string>-1204 373 918 512 -1920 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>-1 4 1920 1053 0 0 1920 1057 </string>
+	<string>0 58 1874 999 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>0 32 1193 737 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
@@ -3389,7 +3393,7 @@
 			<key>Columns</key>
 			<integer>130</integer>
 			<key>Command</key>
-			<string>ssh -p 2 dogbert.ingresso.co.uk</string>
+			<string>ssh -p 2 rossgray@dogbert.ingresso.co.uk</string>
 			<key>Cursor Color</key>
 			<dict>
 				<key>Blue Component</key>
@@ -6825,12 +6829,27 @@
 	<true/>
 	<key>NoSyncInstallationId</key>
 	<string>B37FB9EB-F7CE-4650-A3B4-2796612E71FE</string>
+	<key>NoSyncLastTipTime</key>
+	<real>520936673.38161898</real>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
 	<integer>0</integer>
+	<key>NoSyncPermissionToShowTip</key>
+	<true/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
 	<real>519831076.38590598</real>
+	<key>NoSyncTipsToNotShow</key>
+	<array>
+		<string>000</string>
+		<string>0000</string>
+		<string>0001</string>
+		<string>0002</string>
+		<string>0003</string>
+		<string>0004</string>
+		<string>0005</string>
+		<string>0006</string>
+	</array>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -6899,7 +6918,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-06-23T13:31:17Z</date>
+	<date>2017-07-05T18:14:17Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SavePasteHistory</key>
