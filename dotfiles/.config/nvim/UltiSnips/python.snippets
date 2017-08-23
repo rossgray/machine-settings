@@ -1,4 +1,14 @@
-snippet self "Initialiase instance variable" b
+snippet self "Initialise instance variable" b
 self.${1:attr} = $1
 $0
+endsnippet
+
+snippet init "Create __init__ function" b
+def __init__(self, $1):$2`!p
+if t[1]:
+	attrs = t[1].split(', ')
+	lines = ['self.{0} = {0}'.format(a) for a in attrs]
+	snip.shift()
+	for line in lines:
+		snip += line`
 endsnippet
