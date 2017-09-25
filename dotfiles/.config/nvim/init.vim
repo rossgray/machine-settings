@@ -23,7 +23,7 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-projectionist'
 Plug 'posva/vim-vue'
 " Theme
-Plug 'mhartington/oceanic-next'
+Plug 'joshdick/onedark.vim'
 
 call plug#end()
 
@@ -77,11 +77,13 @@ nmap =x :%!xmllint --format -<CR>
 tnoremap <Esc> <C-\><C-n>
 
 " Theme
+if (has("termguicolors"))
+ set termguicolors
+endif
 syntax enable
-let $NVIM_TUI_ENABLE_TRUE_COLOR=1
-colorscheme OceanicNext
+colorscheme onedark
 set background=dark
-let g:airline_theme='oceanicnext'
+let g:airline_theme='onedark'
 
 
 " Python provider
