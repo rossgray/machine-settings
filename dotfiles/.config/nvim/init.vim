@@ -64,9 +64,11 @@ nnoremap <leader><space> za
 nnoremap <leader>h :nohlsearch<CR>
 
 nnoremap <leader>p :FZF<CR>
+nnoremap <leader>b :Buffers<CR>
+nnoremap <leader>t :Tags<CR>
 nnoremap <leader>n :NERDTreeToggle<CR>
 nnoremap <leader>a :Ack! 
-nnoremap <leader>t :TagbarToggle<CR>
+nnoremap <leader>c :TagbarToggle<CR>
 
 " Format JSON
 nmap =j :%!python -m json.tool<CR>
