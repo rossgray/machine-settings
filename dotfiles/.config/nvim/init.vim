@@ -90,8 +90,8 @@ let g:airline_theme='onedark'
 
 " Python provider
 " We've created virtualenvs for neovim
-let g:python_host_prog = '/Users/ross/.virtualenvs/neovim/bin/python'
-let g:python3_host_prog = '/Users/ross/.virtualenvs/neovim3/bin/python'
+let g:python_host_prog = $WORKON_HOME . '/neovim/bin/python'
+let g:python3_host_prog = $WORKON_HOME . '/neovim3/bin/python'
 
 
 " Plugin options
@@ -111,7 +111,7 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 0
 let g:syntastic_check_on_wq = 0
 let g:syntastic_python_checkers = ['flake8']
-let g:syntastic_python_flake8_exec='/Users/ross/.virtualenvs/neovim3/bin/flake8'
+let g:syntastic_python_flake8_exec= $WORKON_HOME . '/neovim3/bin/flake8'
 
 " Ack
 if executable('ag')
