@@ -61,6 +61,7 @@ source $ZSH/oh-my-zsh.sh
 
 source ~/.exports
 source ~/.venvsetup
+fpath=(path/to/zsh-completions/src $fpath)
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
