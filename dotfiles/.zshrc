@@ -61,7 +61,6 @@ source $ZSH/oh-my-zsh.sh
 
 source ~/.exports
 source ~/.venvsetup
-fpath=(path/to/zsh-completions/src $fpath)
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -90,4 +89,8 @@ fpath=(path/to/zsh-completions/src $fpath)
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# custom plugins
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+fpath=(/usr/local/share/zsh-completions $fpath)
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
