@@ -1,5 +1,5 @@
 
-local user='%{$fg[cyan]%}%n%{$reset_color%}@%{$fg[green]%}%m:%{$reset_color%}'
+local user='%{$fg[blue]%}%n%{$reset_color%}@%{$fg[green]%}%m:%{$reset_color%}'
 local pwd='%{$fg[yellow]%}%~%{$reset_color%}'
 local return_code='%(?..%{$fg[red]%}%? ↵%{$reset_color%})'
 local git_branch='$(git_prompt_info)%{$reset_color%}'
