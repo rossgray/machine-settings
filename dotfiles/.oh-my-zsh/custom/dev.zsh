@@ -22,3 +22,7 @@ kube_prompt() {
 	kubectl_prompt="k8s:($PROJECT|$CLUSTER|$NS)"
 	echo $kubectl_prompt
 }
+
+function lb() {
+    $EDITOR ~/Dropbox/Ingresso/logbook/$(date '+%Y-%m-%d').md
+}
