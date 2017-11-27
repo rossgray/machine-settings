@@ -6,7 +6,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'bling/vim-airline'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
-Plug 'scrooloose/syntastic'
+Plug 'w0rp/ale'
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py --tern-completer --gocode-completer' }
 Plug 'scrooloose/nerdcommenter'
 Plug 'hynek/vim-python-pep8-indent'
@@ -101,17 +101,16 @@ let g:python3_host_prog = $WORKON_HOME . '/neovim3/bin/python'
 let g:airline#extensions#tabline#enabled = 1
 " Show just the filename
 let g:airline#extensions#tabline#fnamemod = ':t'
+let g:airline#extensions#ale#enabled = 1
 
 " FZF
 let $FZF_DEFAULT_COMMAND = 'ag --hidden --ignore .git -g ""'
 
-" Syntastic
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 0
-let g:syntastic_check_on_wq = 0
-let g:syntastic_python_checkers = ['flake8']
-let g:syntastic_python_flake8_exec= $WORKON_HOME . '/neovim3/bin/flake8'
+" Ale
+let g:ale_linters = {
+\   'javascript': ['eslint'],
+\	'python': ['flake8']
+\}
 
 " Ack
 if executable('ag')
