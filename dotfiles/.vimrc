@@ -20,9 +20,6 @@ Plug 'sirver/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'majutsushi/tagbar'
-" Theme
-Plug 'mhartington/oceanic-next'
-
 call plug#end()
 
 filetype plugin indent on
@@ -30,7 +27,6 @@ filetype plugin indent on
 " Theme
 syntax enable
 set t_Co=256
-colorscheme OceanicNext
 set background=dark
 
 set backspace=indent,eol,start
