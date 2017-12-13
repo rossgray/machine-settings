@@ -26,3 +26,7 @@ kube_prompt() {
 function lb() {
     $EDITOR ~/Dropbox/Ingresso/logbook/$(date '+%Y-%m-%d').md
 }
+
+function todo() {
+    $EDITOR ~/Dropbox/todo.md
+}
