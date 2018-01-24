@@ -24,7 +24,8 @@ kube_prompt() {
 }
 
 function lb() {
-    $EDITOR ~/Dropbox/Ingresso/logbook/$(date '+%Y-%m-%d').md
+	# edit weekly logbook file
+    $EDITOR ~/Dropbox/Ingresso/logbook/$(date -v 1w '+%Y-%m-%d').md
 }
 
 function todo() {
