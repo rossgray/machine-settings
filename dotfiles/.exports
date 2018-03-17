@@ -1,4 +1,4 @@
-export PATH="/usr/local/opt/python@2/bin:$PATH"
+export PATH="/usr/local/opt/python/libexec/bin:/usr/local/opt/python@2/bin:$PATH"
 
 # Make neovim the default editor
 export EDITOR="nvim"
