@@ -149,7 +149,7 @@ let g:deoplete#enable_at_startup = 1
 let g:deoplete#sources#go#gocode_binary = "$GOPATH.'/bin/gocode'"
 
 " supertab
-" let g:SuperTabClosePreviewOnPopupClose = 1
+let g:SuperTabClosePreviewOnPopupClose = 1
 
 " Filetypes
 " Go Ace templates
