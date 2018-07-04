@@ -22,11 +22,13 @@ Plug 'majutsushi/tagbar'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-projectionist'
 Plug 'posva/vim-vue'
+Plug 'mxw/vim-jsx'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'ervandew/supertab'
 Plug 'zchee/deoplete-go', { 'do': 'make'}
 Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern' }
 Plug 'zchee/deoplete-jedi'
+Plug 'jiangmiao/auto-pairs'
 " Theme
 Plug 'joshdick/onedark.vim'
 
