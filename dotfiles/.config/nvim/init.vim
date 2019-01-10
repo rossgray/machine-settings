@@ -97,8 +97,8 @@ let g:airline_theme='onedark'
 
 " Python provider
 " We've created virtualenvs for neovim
-let g:python_host_prog = $WORKON_HOME . '/neovim/bin/python'
-let g:python3_host_prog = $WORKON_HOME . '/neovim3/bin/python'
+let g:python_host_prog = $WORKON_HOME . '/neovim2/bin/python'
+let g:python3_host_prog = $WORKON_HOME . '/neovim/bin/python'
 
 
 " Plugin options
