@@ -51,7 +51,7 @@ ZSH_THEME="rossgray"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git pip z)
+plugins=(git z docker docker-compose)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -94,3 +94,9 @@ source ~/.venvsetup
 fpath=(/usr/local/share/zsh-completions $fpath)
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+if command -v pyenv 1>/dev/null 2>&1; then
+	eval "$(pyenv init -)"
+fi
+if which pyenv-virtualenv-init > /dev/null; then
+	eval "$(pyenv virtualenv-init -)";
+fi
